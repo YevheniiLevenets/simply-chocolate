@@ -1,0 +1,305 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #111111;
+}
+
+.section-title > span {
+  color: #fd9222;
+}
+
+/* --------- HEADER ------------ */
+
+.header-menu-list {
+  display: inline-block;
+}
+
+.header-menu-item {
+  display: inline-block;
+}
+
+.header-logo {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+  color: #111111;
+}
+
+.header-logo-italic {
+  font-style: italic;
+}
+
+.header-menu-link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #111111;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: #fd9222;
+}
+
+.hero {
+  background-color: #1e1823;
+}
+
+.hero-title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+
+.hero-btn {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.21;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #fd9222;
+  border-color: #fd9222;
+  border-radius: 100px;
+}
+
+.hero-btn:hover {
+  color: #fd9222;
+  background-color: #fcf1e0;
+}
+
+.hero-btn-link {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.21;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+}
+
+.hero-btn-scroll {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+
+/* ------------ FEATURES ---------------- */
+
+.features {
+  background-color: #1e1823;
+}
+
+.features-list {
+}
+
+.features-item {
+}
+
+.features-subtitle {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.22em;
+  color: #ffffff;
+}
+
+.features-item-text {
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* ---------------TASTE---------------------- */
+
+.taste {
+}
+
+.taste-title {
+}
+
+.taste-text {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #111111;
+}
+
+.taste-list {
+}
+
+.taste-item {
+}
+
+.taste-image {
+}
+
+.taste-subtitle {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111111;
+}
+
+/* -------------MADE--------------------- */
+
+.made {
+}
+
+.made-title {
+}
+
+.made-image {
+}
+
+.made-subtitle {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33em;
+  color: #111111;
+}
+.made-list {
+}
+.made-item {
+}
+.made-item-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #111111;
+}
+
+/* -------------------LOVED------------------- */
+
+.loved {
+}
+.loved-title {
+}
+.loved-list {
+}
+.loved-item {
+}
+.loved-image {
+}
+.loved-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  text-align: center;
+  color: #111111;
+}
+.loved-text {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(17, 17, 17, 0.7);
+}
+.loved-btn {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.22;
+  color: #111111;
+  cursor: pointer;
+}
+
+/* -----------------FOOTER-------------------- */
+
+.footer {
+  background-color: #1e1823;
+}
+
+.footer-text {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.footer-text > span {
+  color: #fd9222;
+}
+
+.footer-subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #ffffff;
+}
+
+.footer-adress {
+  font-style: normal;
+}
+
+.footer-adress-list {
+}
+
+.footer-adress-item {
+}
+
+.footer-adress-link {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.footer-menu-list {
+}
+
+.footer-menu-item {
+}
+
+.footer-menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
