@@ -82,16 +82,16 @@ img {
 }
 
 .hero-title {
-  font-size: 28px;
   font-weight: 500;
+  font-size: 28px;
   line-height: 1.21;
   letter-spacing: -0.03em;
   color: #ffffff;
 }
 
 .hero-btn {
-  font-size: 14px;
   font-weight: 600;
+  font-size: 14px;
   line-height: 1.21;
   color: #ffffff;
   cursor: pointer;
@@ -106,17 +106,17 @@ img {
 }
 
 .hero-btn-link {
-  font-size: 14px;
   font-weight: 600;
+  font-size: 14px;
   line-height: 1.21;
   color: #ffffff;
   border: 1px solid #ffffff;
   border-radius: 100px;
 }
 
-.hero-btn-scroll {
-  font-size: 14px;
+.hero-scroll-link {
   font-weight: 500;
+  font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.03em;
   color: #ffffff;
@@ -135,20 +135,19 @@ img {
 }
 
 .features-subtitle {
-  font-size: 18px;
   font-weight: 600;
-  line-height: 1.22em;
+  font-size: 18px;
   color: #ffffff;
 }
 
 .features-item-text {
+  font-weight: 400;
   font-size: 14px;
-  line-height: 1.21;
   letter-spacing: -0.02em;
   color: rgba(255, 255, 255, 0.7);
 }
 
-/* ---------------TASTE---------------------- */
+/* ---------------TASTE------------------- */
 
 .taste {
 }
